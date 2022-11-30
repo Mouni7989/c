@@ -1,0 +1,32 @@
+carrot=260
+potato=124
+onions=456
+beans=987
+maize=244
+cphno=input('enter customer phone number:')
+cname=input('enter customer name:')
+caddress=('enter customer address:')
+cq=int(input('how much kg do you want!'))
+pq=int(input('how much kg do you want!'))
+oq=int(input('how much kg do you want!'))
+bq=int(input('how much kg do you want!'))
+mq=int(input('how much kg do you want!'))
+bill=(cq*carrot)+(pq*potato)+(oq*onions)+(bq*beans)+(mq*maize1)
+if bill>=1000:
+  tax=bill*18/100
+  elif bill>=700:
+    tax=bill*15/100
+     elif bill>=500:
+    tax=bill*12/100
+    elif bill>=300:
+    tax=bill*10/100
+    elif bill>=200:
+    tax=bill*5/100
+    else:
+    tax=35
+    bill=bill+tax
+    print('customer phone number:',cphno)
+     print('customer number:',cname)
+    print('customer address:',caddress)
+    print('bill amount:',bill)
+    
